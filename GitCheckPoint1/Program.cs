@@ -6,11 +6,12 @@
         {
             Console.WriteLine("This is the Git checkpoint task 1.1");
             testMessage("Task 2 checked");
+            Calculate.Add(2, 3);
         }
 
-        private static void testMessage(string str)
+        static void testMessage(string v)
         {
-            Console.WriteLine(str);
+            Console.WriteLine(v);
         }
     }
 }
